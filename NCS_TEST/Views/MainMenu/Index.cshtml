@@ -1,0 +1,42 @@
+﻿
+@model NCS_TEST.Models.MainMenuViewModel
+
+@{
+    ViewBag.Title = "メインメニュー";
+}
+
+<div class="container">
+
+    <div style="display:flex;justify-content:space-between;">
+        <h3>NWカメラ安全管理システム</h3>
+
+        <div>
+            ログインユーザ：@Model.UserName
+
+            @Url.Action(
+        </div>
+    </div>
+
+    <hr />
+
+    <h2 style="text-align:center">
+        メインメニュー
+    </h2>
+
+    <div style="text-align:center;margin-top:50px;">
+
+        <p>
+            @Url.Action(
+        </p>
+
+        <p>
+            @Url.Action(
+        </p>
+
+        <p>
+            @Url.Action(
+        </p>
+
+    </div>
+
+</div>
